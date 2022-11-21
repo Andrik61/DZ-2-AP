@@ -1,0 +1,141 @@
+
+* {/* только для обучения */
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.header {
+    height: 150px;
+    background-color: #ccc;
+}
+
+.footer {
+    height: 150px;
+    background-color: #ccc;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-link {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: darkviolet;
+    color: antiquewhite;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none; /*убирает подчеркивание в logo */
+    border-radius: 10px 0 0 10px;
+}
+
+.header-link_blue {
+    background-color: blue;
+    margin-left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu-link{
+    display: block;   /*делает блоки в столбик*/
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    line-height: 50px;
+    border: 1px solid transparent; /* делает базово рамку кнопки прозрачной */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-link_red {
+    color: red;
+}
+
+.content-menu{
+    background-color: greenyellow;
+    flex: 1;
+}
+
+.menu-box {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.menu-link:hover {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    border: 1px solid black;
+}
+
+.content-top {
+    color: #222222;
+    font-size: 42px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.content-midle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.content-text
+{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.content-small {
+    color: gold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 70px;
+}
+
+input{
+    padding-left: 10px;
+}
+
+.iconka {
+    
+    font-size: 30px;
+}
+
+.header-link-basement {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: antiquewhite;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none; /*убирает подчеркивание в logo */
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo-dsc:hover {
+    background-color: aquamarine;
+}
+
